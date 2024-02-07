@@ -1,0 +1,119 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px; 
+    margin: 0;
+    padding: 0;
+    font-family: "verdana", sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display:;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.semua {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+
+}
+#garis{
+    border-bottom: 4px solid #364f6b;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li {
+    float: left;
+   
+}
+
+nav ul li a {
+     color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background: ;
+    border-radius: 90px;
+    margin-top: 20px;
+    padding: 14px 40px 14px 40px;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+     background:  #3f72af ;
+}
+#kiri{
+    float: right;
+}
+a.tbl-daftar {
+    background: #3f72af ;
+    border-radius: 80px;
+    margin-top: 20px;
+    padding: 14px 20px 14px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-daftar:hover {
+    background:blue;
+    text-decoration: none;
+}
+
+.tabel {
+    font-family: sans-serif;
+    width: 100%;
+    border:none;
+
+}
+ 
+.tabel tr th{
+    background: #3f72af ;
+    color: #fff ;
+    font-size: 14px;
+}
+ 
+.tabel, th, td {
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 13px;
+}
+.tabel tr:hover {
+    background-color: #f5f5f5;
+}
+.tabel a{
+    font-weight: bold;
+    cursor: pointer;
+}
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 17px 0px 15px 0px;
+    margin-top: 80px;
+    background: #3f72af;
+    color: white;
+    
+}

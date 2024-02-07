@@ -1,0 +1,214 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px; 
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "verdana", sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    display:;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.semua {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+#garis{
+    border-bottom: 4px solid #364f6b;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+nav ul li {
+    float: left;
+   
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background: ;
+    border-radius: 90px;
+    margin-top: 20px;
+    padding: 14px 40px 14px 40px;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    background:  #3f72af ;
+}
+#kiri{
+    float: right;
+}
+a.tbl-daftar {
+    background: #3f72af;
+    border-radius: 80px;
+    margin-top: 20px;
+    padding: 14px 20px 14px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-daftar:hover {
+    background:blue;
+    text-decoration: none;
+
+}
+.container{
+    max-width: 700px;
+    width: 100% ;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.container form .user-ditel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user-ditel .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px) ; 
+}
+.user-ditel .input-box .ditel{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-ditel .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease ;
+}
+.user-ditel .input-box textarea{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease ;
+}
+
+.user-ditel .input-box input:focus,
+.user-ditel .input-box input:valid{
+    border-color: #9b59b6;
+}
+.user-ditel .input-box textarea:focus,
+.user-ditel .input-box textarea:valid{
+    border-color: #9b59b6;
+}
+
+form .jk-ditel {
+    font-size: 20px;
+    font-weight: 500px;
+
+}
+form .jk-ditel .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+.jk-ditel .category label{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.jk-ditel .category .dot{
+    height: 18px;
+    width: 18px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.1s ease;
+}
+
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two{
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+form input[type="radio"]{
+    display: none;
+}
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background:#3f72af ;
+}
+form .button input:hover{ 
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 17px 0px 15px 0px;
+    margin-top: 80px;
+    background: #3f72af;
+    color: white;
+
+
+}
